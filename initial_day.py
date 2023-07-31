@@ -2,14 +2,6 @@ import time
 from day_of_week import get_day_of_week_kor
 
 def get_initial_day() -> float:
-    print("\n복습계획계산기 KNOU-HOW")
-    print("Spaced Practice Calculator Version 0.1.0\n")
-    
-    print("사용방법 요약: 엔터를 두 번 누르면\
- 오늘 공부한 것을 복습할 날짜가 나옵니다.")
-    print("How to use: Just press enter twice, and you will get the days\
- to repeat the work you've done today.\n")
-    
     print("복습할 내용을 처음 공부한 날을 입력해주세요.")
     print("예를 들어서, 처음 공부한 날이 2023년 7월 31일이면\
  2023-07-31 이라고 입력하시면 됩니다.")
@@ -30,5 +22,4 @@ def get_initial_day() -> float:
     day_of_week = get_day_of_week_kor(init_day_str)
     print(f" {day_of_week}")
     
-    print(type(initial_day))
     return initial_day
