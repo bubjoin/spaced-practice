@@ -1,5 +1,5 @@
 import time
-print("Spaced Practice Version 0.1.0\n")
+print("Spaced Practice Calculator Version 0.1.0\n")
 
 print("Please input the day of the initial read.")
 print("If you just press enter, it is calculated by using today as the initial.\n")
